@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:icon="@drawable/ic_message"
+        android:title="@string/preference_title_messages"
+        app:fragment="com.ptreitler.preferencestest.MessagesPreferencesFragment" />
+    <Preference
+        android:icon="@drawable/ic_sync"
+        android:title="@string/preference_title_sync"
+        app:fragment="com.ptreitler.preferencestest.SyncPreferencesFragment" />
+
+</PreferenceScreen>

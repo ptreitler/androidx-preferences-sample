@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+        android:defaultValue="Not set"
+        android:key="signature"
+        android:title="@string/preference_messages_signature_title"
+        app:useSimpleSummaryProvider="true" />
+
+    <EditTextPreference
+        android:defaultValue="@string/preference_messages_default_reply_action_reply"
+        android:key="default_reply_action"
+        android:title="@string/preference_messages_default_reply_action_title"
+        app:useSimpleSummaryProvider="true" />
+</PreferenceScreen>

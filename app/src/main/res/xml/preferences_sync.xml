@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreference
+        android:key="sync_periodically"
+        android:title="@string/preference_sync_sync_title"
+        app:defaultValue="true" />
+
+    <SwitchPreference
+        android:key="download_attachments"
+        android:title="@string/preference_sync_download_attachments_title"
+        app:defaultValue="false"
+        app:summary="@string/preference_sync_download_attachments_summary" />
+</PreferenceScreen>

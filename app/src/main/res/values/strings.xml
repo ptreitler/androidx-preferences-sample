@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PreferencesTest</string>
+
+    <string name="preference_title_messages">Messages</string>
+    <string name="preference_title_sync">Sync</string>
+
+    <string name="preference_messages_signature_title">Your signature</string>
+    <string name="preference_messages_default_reply_action_title">Default reply action</string>
+    <string name="preference_messages_default_reply_action_reply">Reply</string>
+
+    <string name="preference_sync_sync_title">Sync email periodically</string>
+    <string name="preference_sync_download_attachments_title">Download incoming attachments</string>
+    <string name="preference_sync_download_attachments_summary">Only download attachments when manually requested</string>
+</resources>
