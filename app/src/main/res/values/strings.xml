@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">PreferencesTest</string>
+    <string name="app_name">@string/preferences_main_title</string>
 
+    <string name="preferences_main_title">Settings</string>
     <string name="preference_title_messages">Messages</string>
     <string name="preference_title_sync">Sync</string>
 
